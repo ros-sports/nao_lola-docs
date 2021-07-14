@@ -6,8 +6,8 @@
 Nao Lola
 ====================================
 
-This project consists of  ROS2 packages that allow communicating with the RoboCup-purpose 
-Nao Robot middle-ware "Lola". 
+This project consists of  ROS2 packages that allow communicating with the
+NAO's RoboCup-tailored Lola middle-ware.
 
 It serves two purposes:
 
@@ -20,11 +20,12 @@ The project is hosted on `Github`_.
    :hidden:
    :maxdepth: 2
 
-   nao-setup
+   nao-ros2-setup
    installation
    running-the-node
    topics
    start-node-on-boot-up
+   related-ros2-packages
 
 
 .. _Github: https://github.com/ijnek/nao_lola
