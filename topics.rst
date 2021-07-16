@@ -12,56 +12,59 @@ They can be listed by running the nao_lola node, then running:
 Publishing Topics
 *****************
 
-* `sensors/accelerometer` (`nao_interfaces::msg::Accelerometer`_)
-* `sensors/angle` (`nao_interfaces::msg::Angle`_)
-* `sensors/buttons` (`nao_interfaces::msg::Buttons`_)
-* `sensors/fsr` (`nao_interfaces::msg::FSR`_)
-* `sensors/gyroscope` (`nao_interfaces::msg::Gyroscope`_)
-* `sensors/joint_positions` (`nao_interfaces::msg::JointPositions`_)
-* `sensors/joint_stiffnesses` (`nao_interfaces::msg::JointStiffnesses`_)
-* `sensors/joint_temperatures` (`nao_interfaces::msg::JointTemperatures`_)
-* `sensors/joint_currents` (`nao_interfaces::msg::JointCurrents`_)
-* `sensors/joint_statuses` (`nao_interfaces::msg::JointStatuses`_)
-* `sensors/sonar` (`nao_interfaces::msg::Sonar`_)
-* `sensors/touch` (`nao_interfaces::msg::Touch`_)
-* `sensors/battery` (`nao_interfaces::msg::Battery`_)
-* `sensors/robot_config` (`nao_interfaces::msg::RobotConfig`_)
+* `sensors/accelerometer` (`nao_sensor_msgs::msg::Accelerometer`_)
+* `sensors/angle` (`nao_sensor_msgs::msg::Angle`_)
+* `sensors/buttons` (`nao_sensor_msgs::msg::Buttons`_)
+* `sensors/fsr` (`nao_sensor_msgs::msg::FSR`_)
+* `sensors/gyroscope` (`nao_sensor_msgs::msg::Gyroscope`_)
+* `sensors/joint_positions` (`nao_sensor_msgs::msg::JointPositions`_)
+* `sensors/joint_stiffnesses` (`nao_sensor_msgs::msg::JointStiffnesses`_)
+* `sensors/joint_temperatures` (`nao_sensor_msgs::msg::JointTemperatures`_)
+* `sensors/joint_currents` (`nao_sensor_msgs::msg::JointCurrents`_)
+* `sensors/joint_statuses` (`nao_sensor_msgs::msg::JointStatuses`_)
+* `sensors/sonar` (`nao_sensor_msgs::msg::Sonar`_)
+* `sensors/touch` (`nao_sensor_msgs::msg::Touch`_)
+* `sensors/battery` (`nao_sensor_msgs::msg::Battery`_)
+* `sensors/robot_config` (`nao_sensor_msgs::msg::RobotConfig`_)
 
 Subscription Topics
 *******************
 
-* `effectors/joint_positions` (`nao_interfaces::msg::JointPositions`_)
-* `effectors/joint_stiffnesses` (`nao_interfaces::msg::JointStiffnesses`_)
-* `effectors/chest_led` (`nao_interfaces::msg::ChestLed`_)
-* `effectors/left_ear_leds` (`nao_interfaces::msg::LeftEarLeds`_)
-* `effectors/right_ear_leds` (`nao_interfaces::msg::RightEarLeds`_)
-* `effectors/left_eye_leds` (`nao_interfaces::msg::LeftEyeLeds`_)
-* `effectors/right_eye_leds` (`nao_interfaces::msg::RightEyeLeds`_)
-* `effectors/left_foot_led` (`nao_interfaces::msg::LeftFootLed`_)
-* `effectors/right_foot_led` (`nao_interfaces::msg::RightFootLed`_)
-* `effectors/head_leds` (`nao_interfaces::msg::HeadLeds`_)
-* `effectors/sonar_usage` (`nao_interfaces::msg::SonarUsage`_)
+* `effectors/joint_positions` (`nao_command_msgs::msg::JointPositions`_)
+* `effectors/joint_stiffnesses` (`nao_command_msgs::msg::JointStiffnesses`_)
+* `effectors/chest_led` (`nao_command_msgs::msg::ChestLed`_)
+* `effectors/left_ear_leds` (`nao_command_msgs::msg::LeftEarLeds`_)
+* `effectors/right_ear_leds` (`nao_command_msgs::msg::RightEarLeds`_)
+* `effectors/left_eye_leds` (`nao_command_msgs::msg::LeftEyeLeds`_)
+* `effectors/right_eye_leds` (`nao_command_msgs::msg::RightEyeLeds`_)
+* `effectors/left_foot_led` (`nao_command_msgs::msg::LeftFootLed`_)
+* `effectors/right_foot_led` (`nao_command_msgs::msg::RightFootLed`_)
+* `effectors/head_leds` (`nao_command_msgs::msg::HeadLeds`_)
+* `effectors/sonar_usage` (`nao_command_msgs::msg::SonarUsage`_)
 
-.. _nao_interfaces::msg::Accelerometer: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html#accelerometer
-.. _nao_interfaces::msg::Angle: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html#angle
-.. _nao_interfaces::msg::Buttons: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html#buttons
-.. _nao_interfaces::msg::FSR: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html#fsr
-.. _nao_interfaces::msg::Gyroscope: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html#gyroscope
-.. _nao_interfaces::msg::JointPositions: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
-.. _nao_interfaces::msg::JointStiffnesses: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
-.. _nao_interfaces::msg::JointTemperatures: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
-.. _nao_interfaces::msg::JointCurrents: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
-.. _nao_interfaces::msg::JointStatuses: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
-.. _nao_interfaces::msg::Sonar: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html#sonar
-.. _nao_interfaces::msg::Touch: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html#touch
-.. _nao_interfaces::msg::Battery: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html#buttons
-.. _nao_interfaces::msg::RobotConfig: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html#robotconfig
-.. _nao_interfaces::msg::ChestLed: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
-.. _nao_interfaces::msg::LeftEarLeds: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
-.. _nao_interfaces::msg::RightEarLeds: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
-.. _nao_interfaces::msg::LeftEyeLeds: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
-.. _nao_interfaces::msg::RightEyeLeds: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
-.. _nao_interfaces::msg::LeftFootLed: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
-.. _nao_interfaces::msg::RightFootLed: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
-.. _nao_interfaces::msg::HeadLeds: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
-.. _nao_interfaces::msg::SonarUsage: https://nao-interfaces-docs.readthedocs.io/en/latest/msgs.html
+.. _nao_sensor_msgs::msg::Accelerometer: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#accelerometer
+.. _nao_sensor_msgs::msg::Angle: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#angle
+.. _nao_sensor_msgs::msg::Battery: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#battery
+.. _nao_sensor_msgs::msg::Buttons: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#buttons
+.. _nao_sensor_msgs::msg::FSR: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#fsr
+.. _nao_sensor_msgs::msg::Gyroscope: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#gyroscope
+.. _nao_sensor_msgs::msg::JointCurrents: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#jointcurrents
+.. _nao_sensor_msgs::msg::JointPositions: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#jointpositions
+.. _nao_sensor_msgs::msg::JointStatuses: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#jointstatuses
+.. _nao_sensor_msgs::msg::JointStiffnesses: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#jointstiffnesses
+.. _nao_sensor_msgs::msg::JointTemperatures: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#jointtemperatures
+.. _nao_sensor_msgs::msg::RobotConfig: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#robotconfig
+.. _nao_sensor_msgs::msg::Sonar: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#sonar
+.. _nao_sensor_msgs::msg::Touch: https://nao-interfaces-docs.readthedocs.io/en/latest/sensor-msgs.html#touch
+
+.. _nao_command_msgs::msg::JointPositions: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#jointpositions
+.. _nao_command_msgs::msg::JointStiffnesses: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#jointstiffnesses
+.. _nao_command_msgs::msg::ChestLed: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#chestled
+.. _nao_command_msgs::msg::LeftEyeLeds: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#lefteyeleds
+.. _nao_command_msgs::msg::LeftFootLed: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#leftfootled
+.. _nao_command_msgs::msg::RightEyeLeds: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#righteyeleds
+.. _nao_command_msgs::msg::RightFootLed: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#rightfootled
+.. _nao_command_msgs::msg::HeadLeds: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#headleds
+.. _nao_command_msgs::msg::LeftEarLeds: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#leftearleds
+.. _nao_command_msgs::msg::RightEarLeds: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#rightearleds
+.. _nao_command_msgs::msg::SonarUsage: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#sonarusage
