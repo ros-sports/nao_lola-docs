@@ -6,6 +6,11 @@
 Nao Lola
 ====================================
 
+.. warning::
+
+   The **effector commands have not been tested on a real NAO yet**, due to the maintainer's difficulty in accessing
+   a physical robot. Please raise an issue or a PR with a fix on `Github`_ if the package doesn't work as expected.
+
 This project consists of  ROS2 packages that allow communicating with the
 NAO's RoboCup-tailored Lola middle-ware.
 
