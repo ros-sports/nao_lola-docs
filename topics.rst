@@ -3,7 +3,7 @@ Topics
 
 Below is a list of topics getting published, and topics that this node is subscribed to.
 
-They can be listed by running the nao_lola node, then running:
+They can be listed while the nao_lola node is running, with:
 
 .. code-block:: console
 

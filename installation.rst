@@ -3,7 +3,7 @@ Installation
 
 .. note::
 
-    Instructions here assume that you are in a ROS2 workspace
+    Instructions here assume that you are **on the NAO**, and in a ROS2 workspace
     root directory.
 
 Cloning repositories
