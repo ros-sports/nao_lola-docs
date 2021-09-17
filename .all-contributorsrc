@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ijnek",
+      "name": "Kenji Brameld",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18237662?v=4",
+      "profile": "https://github.com/ijnek",
+      "contributions": [
+        "maintenance"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "nao_lola-docs",
+  "projectOwner": "ijnek",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
