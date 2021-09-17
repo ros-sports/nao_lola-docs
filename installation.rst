@@ -6,8 +6,21 @@ Installation
     Instructions here assume that you are **on the NAO**, and in a ROS2 workspace
     root directory.
 
+Binary Installation
+*******************
+
+The package is released only for ROS2 galactic, following instructrions below to install the debian binary package:
+
+.. code-block:: console
+
+   sudo apt update
+   sudo apt install ros-galactic-nao-lola
+
+Source Installation
+*******************
+
 Cloning repositories
-********************
+====================
 
 In your ROS2 workspace, clone the repository:
 
@@ -17,7 +30,7 @@ In your ROS2 workspace, clone the repository:
    vcs import src < src/nao_lola/dependencies.repos
 
 Building
-********
+========
 
 To build the package and its dependencies, in the workspace root directory, run:
 
