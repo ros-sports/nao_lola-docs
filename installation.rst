@@ -9,12 +9,12 @@ Installation
 Binary Installation
 *******************
 
-The package is released only for ROS2 galactic, following instructrions below to install the debian binary package:
+The package is released only for ROS2 galactic and rolling, following instructrions below to install the debian binary package:
 
 .. code-block:: console
 
    sudo apt update
-   sudo apt install ros-galactic-nao-lola
+   sudo apt install ros-${ROS_DISTRO}-nao-lola
 
 Source Installation
 *******************
