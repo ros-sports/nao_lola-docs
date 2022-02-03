@@ -9,7 +9,7 @@ Installation
 Binary Installation
 *******************
 
-The package is released only for ROS2 galactic and rolling, following instructrions below to install the debian binary package:
+The package is released only for ROS2 galactic and rolling. Follow the instructions below to install the binary package:
 
 .. code-block:: console
 
