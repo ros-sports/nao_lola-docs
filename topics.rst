@@ -1,11 +1,6 @@
 Topics
 ######
 
-.. warning::
-
-    The **effector commands have not been tested on a real NAO yet**, due to the maintainer's difficulty in accessing
-    a physical robot. Please raise an issue or a PR with a fix on `Github`_ if the package doesn't work as expected.
-
 Below is a list of topics getting published, and topics that this node is subscribed to.
 
 They can be listed while the nao_lola node is running, with:
@@ -73,5 +68,3 @@ Subscription Topics
 .. _nao_command_msgs::msg::LeftEarLeds: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#leftearleds
 .. _nao_command_msgs::msg::RightEarLeds: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#rightearleds
 .. _nao_command_msgs::msg::SonarUsage: https://nao-interfaces-docs.readthedocs.io/en/latest/command-msgs.html#sonarusage
-
-.. _Github: https://github.com/ijnek/nao_lola
