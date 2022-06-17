@@ -13,6 +13,3 @@ To see all the topics being published and subscribed, in a new terminal, run
 .. code-block:: console
 
     ros2 topic list -t
-
-
-.. _Github: https://github.com/ijnek/nao_lola
