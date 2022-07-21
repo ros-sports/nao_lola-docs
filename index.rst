@@ -28,4 +28,4 @@ The project is hosted on `Github`_.
    related-ros2-packages
 
 
-.. _Github: https://github.com/ijnek/nao_lola
+.. _Github: https://github.com/ros-sports/nao_lola

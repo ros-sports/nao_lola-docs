@@ -26,7 +26,7 @@ In your ROS2 workspace, clone the repository:
 
 .. code-block:: console
 
-   git clone --recursive https://github.com/ijnek/nao_lola.git src/nao_lola
+   git clone --recursive https://github.com/ros-sports/nao_lola.git src/nao_lola
    rosdep install --from-paths src -i
 
 Building
