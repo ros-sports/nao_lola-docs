@@ -22,11 +22,13 @@ Source Installation
 Cloning repositories
 ====================
 
-In your ROS2 workspace, clone the repository:
+Source installation works for ROS2 Galactic onwards.
+
+Source your ROS installation, then run the following in your ROS workspace:
 
 .. code-block:: console
 
-   git clone --recursive https://github.com/ros-sports/nao_lola.git src/nao_lola
+   git clone --recursive https://github.com/ros-sports/nao_lola.git src/nao_lola --branch ${ROS_DISTRO}
    rosdep install --from-paths src -i
 
 Building
