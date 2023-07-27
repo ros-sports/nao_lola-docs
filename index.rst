@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Nao Lola
-====================================
+========
 
 This project consists of  ROS2 packages that allow communicating with the
 NAO's RoboCup-tailored Lola middle-ware.
@@ -22,9 +22,12 @@ The project is hosted on `Github`_.
 
    nao-ros2-setup
    installation
-   running-the-node
-   topics
-   start-node-on-boot-up
+   lola-client
+   sensor-msgs
+   command-msgs
+   leds
+   joints
+   conversion
    related-ros2-packages
 
 
