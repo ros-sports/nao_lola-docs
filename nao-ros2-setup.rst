@@ -69,6 +69,6 @@ Do a **ROS-Base Install**, to prevent downloading unnecessary GUI packages.
 
     In the `Install ROS 2 package`_ step, do a **ROS-Base Install**, rather than a *Desktop Install*.
 
-.. _NaoImage: https://tu-dortmund.sciebo.de/s/8bg5NQJ5Gm1j30z
+.. _NaoImage: https://github.com/NaoDevils/NaoImage
 .. _Installing ROS 2 via Debian Packages: https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html
 .. _Install ROS 2 package: https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages
