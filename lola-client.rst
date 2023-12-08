@@ -43,6 +43,10 @@ Publishing Topics
 * `sensors/battery` (:ref:`nao_lola_sensor_msgs::msg::Battery <Battery>`)
 * `sensors/robot_config` (:ref:`nao_lola_sensor_msgs::msg::RobotConfig <RobotConfig>`)
 
+If the parameter :ref:`publish_joint_states <publish_joint_states>` is set to true, the following topic is also published:
+
+* `joint_states` (`sensor_msgs::msg::JointState`_)
+
 Subscription Topics
 *******************
 
@@ -57,3 +61,14 @@ Subscription Topics
 * `effectors/right_foot_led` (:ref:`nao_lola_command_msgs::msg::RightFootLed <sensor_RightFootLed>`)
 * `effectors/head_leds` (:ref:`nao_lola_command_msgs::msg::HeadLeds <sensor_HeadLeds>`)
 * `effectors/sonar_usage` (:ref:`nao_lola_command_msgs::msg::SonarUsage <SonarUsage>`)
+
+Parameters
+**********
+
+.. _publish_joint_states:
+
+* `publish_joint_states` (bool, default: `true`)
+
+    Whether to convert nao_lola sensor_msgs/JointPositions to sensor_msgs/JointState and publish it on topic 'joint_states'.
+
+.. _sensor_msgs::msg::JointState: https://github.com/ros2/common_interfaces/blob/rolling/sensor_msgs/msg/JointState.msg
