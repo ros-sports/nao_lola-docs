@@ -7,26 +7,8 @@ To run the client that connects to LoLA, run:
 
     ros2 run nao_lola_client nao_lola_client
 
-
-To see all the topics being published and subscribed, in a new terminal, run
-
-.. code-block:: console
-
-    ros2 topic list -t
-
-Topics
-******
-
-Below is a list of topics getting published, and topics that this node is subscribed to.
-
-They can be listed while the nao_lola node is running, with:
-
-.. code-block:: console
-
-    ros2 topic list -t
-
-Publishing Topics
-*****************
+Published Topics
+****************
 
 * `sensors/accelerometer` (:ref:`nao_lola_sensor_msgs::msg::Accelerometer <Accelerometer>`)
 * `sensors/angle` (:ref:`nao_lola_sensor_msgs::msg::Angle <Angle>`)
@@ -47,8 +29,8 @@ If the parameter :ref:`publish_joint_states <publish_joint_states>` is set to tr
 
 * `joint_states` (`sensor_msgs::msg::JointState`_)
 
-Subscription Topics
-*******************
+Subscribed Topics
+*****************
 
 * `effectors/joint_positions` (:ref:`nao_lola_command_msgs::msg::JointPositions <command_joint_positions>`)
 * `effectors/joint_stiffnesses` (:ref:`nao_lola_command_msgs::msg::JointStiffnesses <command_joint_stiffnesses>`)
