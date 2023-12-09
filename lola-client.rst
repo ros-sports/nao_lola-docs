@@ -7,26 +7,8 @@ To run the client that connects to LoLA, run:
 
     ros2 run nao_lola_client nao_lola_client
 
-
-To see all the topics being published and subscribed, in a new terminal, run
-
-.. code-block:: console
-
-    ros2 topic list -t
-
-Topics
-******
-
-Below is a list of topics getting published, and topics that this node is subscribed to.
-
-They can be listed while the nao_lola node is running, with:
-
-.. code-block:: console
-
-    ros2 topic list -t
-
-Publishing Topics
-*****************
+Published Topics
+****************
 
 * `sensors/accelerometer` (:ref:`nao_lola_sensor_msgs::msg::Accelerometer <Accelerometer>`)
 * `sensors/angle` (:ref:`nao_lola_sensor_msgs::msg::Angle <Angle>`)
@@ -43,8 +25,12 @@ Publishing Topics
 * `sensors/battery` (:ref:`nao_lola_sensor_msgs::msg::Battery <Battery>`)
 * `sensors/robot_config` (:ref:`nao_lola_sensor_msgs::msg::RobotConfig <RobotConfig>`)
 
-Subscription Topics
-*******************
+If the parameter :ref:`publish_joint_states <publish_joint_states>` is set to true, the following topic is also published:
+
+* `joint_states` (`sensor_msgs::msg::JointState`_)
+
+Subscribed Topics
+*****************
 
 * `effectors/joint_positions` (:ref:`nao_lola_command_msgs::msg::JointPositions <command_joint_positions>`)
 * `effectors/joint_stiffnesses` (:ref:`nao_lola_command_msgs::msg::JointStiffnesses <command_joint_stiffnesses>`)
@@ -57,3 +43,14 @@ Subscription Topics
 * `effectors/right_foot_led` (:ref:`nao_lola_command_msgs::msg::RightFootLed <sensor_RightFootLed>`)
 * `effectors/head_leds` (:ref:`nao_lola_command_msgs::msg::HeadLeds <sensor_HeadLeds>`)
 * `effectors/sonar_usage` (:ref:`nao_lola_command_msgs::msg::SonarUsage <SonarUsage>`)
+
+Parameters
+**********
+
+.. _publish_joint_states:
+
+* `publish_joint_states` (bool, default: `true`)
+
+    Whether to convert nao_lola sensor_msgs/JointPositions to sensor_msgs/JointState and publish it on topic 'joint_states'.
+
+.. _sensor_msgs::msg::JointState: https://github.com/ros2/common_interfaces/blob/rolling/sensor_msgs/msg/JointState.msg
