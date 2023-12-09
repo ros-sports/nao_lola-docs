@@ -27,7 +27,6 @@ The project is hosted on `Github`_.
    command-msgs
    leds
    joints
-   conversion
    related-ros2-packages
 
 

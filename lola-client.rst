@@ -25,9 +25,10 @@ Published Topics
 * `sensors/battery` (:ref:`nao_lola_sensor_msgs::msg::Battery <Battery>`)
 * `sensors/robot_config` (:ref:`nao_lola_sensor_msgs::msg::RobotConfig <RobotConfig>`)
 
-If the parameter :ref:`publish_joint_states <publish_joint_states>` is set to true, the following topic is also published:
+The following topics are available depending on parameters:
 
-* `joint_states` (`sensor_msgs::msg::JointState`_)
+* `imu` (`sensor_msgs::msg::Imu`_) - if :ref:`publish_imu <publish_imu>` parameter is set to true
+* `joint_states` (`sensor_msgs::msg::JointState`_) - if :ref:`publish_joint_states <publish_joint_states>` parameter is set to true
 
 Subscribed Topics
 *****************
@@ -47,10 +48,17 @@ Subscribed Topics
 Parameters
 **********
 
+.. _publish_imu:
+
+* `publish_imu` (bool, default: `true`)
+
+    Whether to convert `nao_lola sensor_msgs/Accelerometer` and `nao_lola sensor_msgs/Gyroscope` to `sensor_msgs/Imu` and publish it.
+
 .. _publish_joint_states:
 
 * `publish_joint_states` (bool, default: `true`)
 
-    Whether to convert nao_lola sensor_msgs/JointPositions to sensor_msgs/JointState and publish it on topic 'joint_states'.
+    Whether to convert `nao_lola sensor_msgs/JointPositions` to `sensor_msgs/JointState` and publish it.
 
+.. _sensor_msgs::msg::Imu: https://github.com/ros2/common_interfaces/blob/rolling/sensor_msgs/msg/Imu.msg
 .. _sensor_msgs::msg::JointState: https://github.com/ros2/common_interfaces/blob/rolling/sensor_msgs/msg/JointState.msg
