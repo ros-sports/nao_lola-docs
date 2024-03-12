@@ -1,12 +1,6 @@
 NAO ROS2 Setup
 ##############
 
-.. warning::
-
-    This package requires you to have access to an **opn file with root access**,
-    which Aldebaran has granted access only to RoboCup SPL teams. If you are a member
-    of a RoboCup team, contact the SPL Technical Committee to get a copy.
-
 The easiest way use ROS 2 on the NAO is to flash an Ubuntu 22.04-based image on the NAO, and use apt to install ROS 2.
 
 Flash RoboCup OPN file
