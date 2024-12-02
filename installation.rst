@@ -9,12 +9,12 @@ Installation
 Binary Installation
 *******************
 
-The package is released only for ROS2 galactic and rolling. Follow the instructions below to install the binary package:
+Follow the instructions below to install the binary package:
 
 .. code-block:: console
 
    sudo apt update
-   sudo apt install ros-${ROS_DISTRO}-nao-lola
+   sudo apt install ros-${ROS_DISTRO}-nao-lola-client
 
 Source Installation
 *******************
