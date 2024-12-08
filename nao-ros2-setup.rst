@@ -8,7 +8,7 @@ Flash RoboCup OPN file
 
 .. warning::
 
-    (Last updated December 2024) NaoImage has no support on Ubuntu 24.04 yet, and these instructions below are untested. **Please use Ubuntu 22.04 / ROS 2 Humble for now.** The 24.04 port for NaoImage is tracked in `this github issue`. 
+    (Last updated December 2024) NaoImage has no support on Ubuntu 24.04 yet, and these instructions below are untested. **Please use Ubuntu 22.04 / ROS 2 Humble for now.** The 24.04 port for NaoImage is tracked in `this github issue`_.
 
 .. note::
 
@@ -70,4 +70,4 @@ Do a **ROS-Base Install**, to prevent downloading unnecessary GUI packages.
 .. _NaoImage: https://github.com/NaoDevils/NaoImage
 .. _Installing ROS 2 via Debian Packages: https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html
 .. _Install ROS 2 package: https://docs.ros.org/en/galactic/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages
-.. _github issue: https://github.com/NaoDevils/NaoImage/issues/4
+.. _this github issue: https://github.com/NaoDevils/NaoImage/issues/4
