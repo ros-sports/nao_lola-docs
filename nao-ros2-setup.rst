@@ -1,19 +1,19 @@
 NAO ROS2 Setup
 ##############
 
-The easiest way use ROS 2 on the NAO is to flash an Ubuntu 22.04-based image on the NAO, and use apt to install ROS 2.
-
-Flash RoboCup OPN file
-**********************
-
 .. warning::
 
     (Last updated December 2024) NaoImage has no support on Ubuntu 24.04 yet, and these instructions below are untested. **Please use Ubuntu 22.04 / ROS 2 Humble for now.** The 24.04 port for NaoImage is tracked in `this github issue`_.
 
+The easiest way use ROS 2 on the NAO is to flash an Ubuntu 24.04-based image on the NAO, and use apt to install ROS 2.
+
+Flash RoboCup OPN file
+**********************
+
 .. note::
 
     If you have a NAO robot with the robocup-opn image already flashed, skip this step and continue
-    to the `Install Ubuntu22.04 on NAO`_ step.
+    to the `Install Ubuntu24.04 on NAO`_ step.
 
 .. tip::
 
@@ -52,10 +52,10 @@ To flash the robot, run
 #. Press and hold down the chest button on the NAO until it lights up blue
 #. Wait until it says ``Ognak gnuk!`` and starts looking around
 
-Install Ubuntu22.04 on NAO
+Install Ubuntu24.04 on NAO
 **************************
 
-Follow instructions provided by NaoDevils' `NaoImage`_ to set up Ubuntu 22.04-based on the NAO.
+Follow instructions provided by NaoDevils' `NaoImage`_ to set up Ubuntu 24.04-based on the NAO.
 
 Install ROS2 on NAO
 *******************
