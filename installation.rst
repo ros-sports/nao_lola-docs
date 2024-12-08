@@ -22,8 +22,6 @@ Source Installation
 Cloning repositories
 ====================
 
-Source installation works for ROS2 Galactic onwards.
-
 Source your ROS installation, then run the following in your ROS workspace:
 
 .. code-block:: console
